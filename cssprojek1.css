@@ -1,0 +1,476 @@
+/*=================================================================HOMEPAGE============================================================*/
+body{
+    background-color:  #f5ECBD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #f5ECBD;
+    color: #D3B73A;
+    text-align: left;
+    align-items: center;
+    /* height: 60px; */
+    /* padding-top: 40px; */
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+ul, li {
+    display: inline;
+    margin: 20px;
+}
+.header1{
+    /* background-color: yellow; */
+    float: left;
+    margin-top:  1px;
+    color: #D3B73A;
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fontheader{
+    color:  #D3B73A;
+}
+.searchbox{
+    padding: 10px;
+    border: 1px solid;
+    width: 250px;
+} 
+.searchbutton{
+    padding: 10px;
+    background-color:  #D3B73A;
+    color:white;
+    border:none;
+    cursor: pointer;
+    margin: 5px 10px;
+}
+
+.profile{
+    /* padding: 10px; */
+    height: 37px;
+    width: 37px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.inlinekanan{
+    /* background-color: yellow; */
+    align-items: center;
+    margin-top: 0px;
+    display: flex;
+}
+.imagebg{
+    background-image: url(gambar/We\ Woof\ Meowing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98.9vw;
+    height: 100vh;
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 100px solid  #F78D1F;
+    background-color: #f5ECBD;
+    padding-top: 10px
+    width: 98.9vw;
+    height: 80vh;
+    padding: 15px;
+    padding-top: 50px;
+}
+.judul{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 5px 0;
+    font-family: garamond;
+}
+.teks1{
+    text-align: justify;
+    font-size: 30px;
+    font-family: garamond;
+}
+.foto1{
+    height: 500px;
+    width: 400px;
+    float: right;
+}
+.fototeks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px; 
+    margin-right: 1px;
+}
+.section2{
+    margin-top: 100px;
+    background-color:  #f5ECBD;
+    border: 20px dotted #D3B73A;
+}
+.teks2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.boxbesar{
+    width: 80vw;
+    margin: 5px auto;
+    /* display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 0.1px; */
+    display: flex;
+    overflow: scroll;
+    text-align: center;
+}
+
+.boxbesar::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+.box{
+    height: 150px;
+    width: 300px;
+    margin-left: 20px; 
+    opacity: 0.5;
+}
+.box:hover{
+    opacity: 1.0;
+}
+.kontainer1{
+    background-color: yellow;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #F78D1F;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+}
+.berita{
+    margin-top: 100px;
+    text-align: center;
+}
+a:hover{
+    font-size: larger;
+
+}
+/*===========================================================SCHOOLPAGE========================================================*/
+.header2{
+    background-color: #D3B73A;
+    color: white;
+    text-align: left;
+    align-items: center;
+    /* height: 60px; */
+    /* padding-top: 40px; */
+    padding-left: 10px;
+}
+.fontheader2{
+    color: white;
+}
+
+.foto-header {
+    width: 150px;
+}
+
+.schoolbody{
+    background-color: #f5ECBD;
+    padding-top: 0.5px;
+    padding-left: 100px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-top: 150px;
+    display: flex;
+}
+
+.judulschool{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 5px 0;
+    display: flex;
+    font-family: garamond;
+}   
+.teks3{
+    font-size: 30px;
+    font-family: garamond;
+}
+.section3{
+    margin-top: 210px;
+    text-align: center;
+}
+.teks4{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: garamond;
+}
+
+.container-foto {
+    border: 1px solid pink;
+    min-width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+.container-foto2 {
+    border: 1px solid pink;
+    min-width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+.foto2{
+    
+}
+
+.foto2fas{
+    margin-top: 0.01px;
+    border: 1px solid pink;
+    width: 400px;
+    height: 300px;
+}
+.inlineschool{
+    text-align: center;;
+}
+.inline-school{
+    display: flex;
+    margin: 190px 150px 100px 250px;
+    text-align: center;
+}
+.teks11{
+    border-right:2px solid black ;
+    padding: 65px;
+    font-family: garamond;
+}
+.judulex{
+    font-weight: bold;
+    font-size: 30px;
+}
+/*================================================================SHOP==========================================================*/
+.teks5{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0px;
+    font-family: garamond;
+}
+.foto5{
+    height: 450px;
+}
+.section4{
+    padding:0 50px;
+    margin-top: 100px;
+}
+
+.container-jual {
+    margin: 10px;
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+}
+
+.container-jual::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+/*==================================================ALUMNI===============================================*/
+.borderpg{
+    border: 100px solid #f5ECBD;
+    background-color: #B2BEB5;
+    height: 900px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+}
+.boxbesar2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 25px;
+    display: inline-flex;
+    text-align: center;
+}
+.kontak{
+    border: #D3B73A;
+    background-color: #f5ECBD;
+    width: 100px;
+}
+.fotograd{
+    margin-top: 0.01px;
+    border: 1px solid pink;
+    width: 200px;
+    height: 250px;
+}
+.teks12{
+    font-family: garamond;
+}
+/*===================================================================RATINGS=====================================================*/
+.rating{
+    border: 100px solid #f5ECBD;
+    background-color: #B2BEB5;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;   
+    display: inline-flex;
+    gap: 10px;
+}
+.foto3{
+    height: 200px;
+    width: 150px;
+}
+
+.m-c {
+    margin: 0 10px;
+    flex: 0 0 330px;
+}
+
+.teks6{
+    display: flex;
+}
+.searchbox2{
+    padding: 10px;
+    border: 1px solid;
+    width: 80%;
+    height: 100px;
+    margin: 5px 0;
+}
+.review{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.review-inner {
+    margin: 0 10px;
+}
+.searchbutton2{
+    padding: 10px;
+    background-color: #B2BEB5;
+    color:white;
+    border:none;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100px;
+    align-self: sta;
+}
+.kontainer2{
+    display: flex;
+}
+.searchbutton3{
+    margin: 0 100px;
+    padding: 10px;
+    background-color: #B2BEB5;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+
+.kolom-rating {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+/*==============================================PROFILE PAGE==============================================*/
+.header3{
+    background-color: #D3B73A;
+    color: white;
+    align-items: center;
+    /* height: 60px; */
+    /* padding-top: 40px; */
+    padding-left: 10px;
+   height: 100px;
+}
+.profileheader{
+    text-align: center;
+    padding-top: 30px;
+}
+.profilkonten{
+    margin-left: 380px;
+    margin-right: 480px;
+}
+.teks7{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+/*=========================================FOUNDER=====================================================*/
+.borderfounder{
+    border: 100px solid #f5ECBD;
+    background-color: #B2BEB5;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.foto4{
+    height: 300px;
+    width: 200px;
+    margin-top: 30px;
+}
+.teks8{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.teks9{
+    margin-left: 10px;
+}
+.footerfounder{
+    margin-top: 50px;
+    background-color: #F78D1F;
+    color: wheat;
+    text-align: center;
+    height: 90px;
+    padding-top: 10px;
+}
+.headerjudul{
+    align-items: center;
+    font-size: 30px;
+}
+/*===========================================COMPANY============================================*/
+.teks10{
+    margin-top: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.bordervisi{
+    border: 100px solid #f5ECBD;
+    background-color: #B2BEB5;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+.emot{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.berita2{
+    margin-top: 50px;
+    text-align: center;
+}
